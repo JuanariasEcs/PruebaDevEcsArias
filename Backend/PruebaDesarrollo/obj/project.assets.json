@@ -3984,11 +3984,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/juanarias/Desktop/PruebaDesarrollo/Backend/PruebaDesarrollo/PruebaDesarrollo.csproj",
+      "projectUniqueName": "/Users/juanarias/PruebaDevEcsArias/Backend/PruebaDesarrollo/PruebaDesarrollo.csproj",
       "projectName": "PruebaDesarrollo",
-      "projectPath": "/Users/juanarias/Desktop/PruebaDesarrollo/Backend/PruebaDesarrollo/PruebaDesarrollo.csproj",
+      "projectPath": "/Users/juanarias/PruebaDevEcsArias/Backend/PruebaDesarrollo/PruebaDesarrollo.csproj",
       "packagesPath": "/Users/juanarias/.nuget/packages/",
-      "outputPath": "/Users/juanarias/Desktop/PruebaDesarrollo/Backend/PruebaDesarrollo/obj/",
+      "outputPath": "/Users/juanarias/PruebaDevEcsArias/Backend/PruebaDesarrollo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/juanarias/.nuget/NuGet/NuGet.Config"
@@ -3997,7 +3997,6 @@
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.316/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4010,6 +4009,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4078,6 +4082,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4086,7 +4104,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.316/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
       }
     }
   }
